@@ -55,14 +55,14 @@ Ensure you have the following installed:
     ```bash
     npm start
     ```
-   The server should be running on `http://localhost:3000`.
+   The server should be running on `http://localhost:4000`.
 
 ## API Endpoints
 
-### Authentication
+### User Authentication
 
-- **POST /api/auth/register** - Register a new user
-- **POST /api/auth/login** - Login and get a token
+- **POST /api/user/register** - Register a new user
+- **POST /api/user/login** - Login and get a token
 
 ### Products
 
