@@ -1,3 +1,6 @@
+## Live Link: 
+https://e-commerce-fronted-one.vercel.app/
+
 # E-commerce Backend API
 
 This is the backend for an e-commerce platform built using **Express** and **MongoDB**. It provides a RESTful API for handling essential e-commerce functionalities such as product listings, user management, orders, and more.
