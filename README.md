@@ -73,9 +73,9 @@ Ensure you have the following installed:
 
 ### Orders
 
-- **POST /api/order/list** - Get all orders (Admin) or user-specific orders
+- **GET /api/order/list** - Get all orders (Admin) or user-specific orders
 - **POST /api/order/status** - Update order status (Admin)
-- **POST /api/order/userorders** - Orders of a user
+- **GET /api/order/userorders** - Orders of a user
 - **POST /api/order/place** - Place order using COD
 - **POST /api/order/stripe** - Place order using Stripe
 - **POST /api/order/verifystripe** - Verify order payment of Stripe
