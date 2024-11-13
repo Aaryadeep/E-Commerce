@@ -73,16 +73,18 @@ Ensure you have the following installed:
 
 ### Orders
 
-- **GET /api/orders** - Get all orders (Admin) or user-specific orders
-- **POST /api/orders** - Place a new order
-- **PUT /api/orders/:id** - (Admin only) Update order status
+- **POST /api/order/list** - Get all orders (Admin) or user-specific orders
+- **POST /api/order/status** - Update order status (Admin)
+- **POST /api/order/userorders** - Orders of a user
+- **POST /api/order/place** - Place order using COD
+- **POST /api/order/stripe** - Place order using Stripe
+- **POST /api/order/verifystripe** - Verify order payment of Stripe
 
 ### Cart
 
-- **GET /api/cart** - Get user’s cart
-- **POST /api/cart** - Add item to cart
-- **PUT /api/cart/:itemId** - Update quantity of cart item
-- **DELETE /api/cart/:itemId** - Remove item from cart
+- **GET /api/cart/get** - Get user’s cart
+- **POST /api/cart/add** - Add item to cart
+- **PUT /api/cart/update** - Update quantity of cart item
 
 ## Contributing
 
