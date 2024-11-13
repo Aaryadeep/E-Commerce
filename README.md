@@ -66,10 +66,10 @@ Ensure you have the following installed:
 
 ### Products
 
-- **GET /api/products** - Get a list of all products
-- **POST /api/products** - (Admin only) Create a new product
-- **PUT /api/products/:id** - (Admin only) Update product details
-- **DELETE /api/products/:id** - (Admin only) Delete a product
+- **POST /api/product/add** - (Admin only) Create a new product
+- **GET /api/product/list** - Get a list of all products
+- **GET /api/product/single/** - Get a single product details
+- **DELETE /api/product/remove** - (Admin only) Delete a product
 
 ### Orders
 
